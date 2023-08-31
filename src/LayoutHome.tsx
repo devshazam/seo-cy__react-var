@@ -8,7 +8,6 @@ import FooterMenu from "./components/FooterMenu";
 import MobileMenu from "./components/MobileMenu";
 import Whatsapp from "./components/Whatsapp";
 import BackBanner from "./components/BackBanner";
-import MainBanner from "./components/MainBanner";
 
 export default function Layout() {
     return (
@@ -19,17 +18,8 @@ export default function Layout() {
 
                 <HeaderMenu />
 
-                {/* <div className="container">
-                    <div className="b-title b-title--2">
-                        <h1>Разработка сайта-визитки «под ключ»</h1>
-                    </div>
-                </div>   */}
 
-                <MainBanner />  
-
-                <div className="b-solution-fancy b-solution-fancy_det">
-                    <Outlet />
-                </div>
+                <Outlet />
                 <FooterForm />
                 <FooterSert />
                 <FooterMenu />

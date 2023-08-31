@@ -2,7 +2,16 @@ import React from 'react';
 
 const Page = () => {
     return (
+
+        <>
                 <div className="container">
+                    <div className="b-title b-title--2">
+                        <h1>Разработка сайта-визитки «под ключ»</h1>
+                    </div>
+                </div>  
+
+                <div className="b-solution-fancy b-solution-fancy_det">
+                    <div className="container">
 
                     <div className="grid__row">
                         <div className="col-1-1">
@@ -122,6 +131,11 @@ const Page = () => {
                             </div>
                         </div>
                 </div>
+                </div>
+
+
+                
+        </>
     );
 };
 

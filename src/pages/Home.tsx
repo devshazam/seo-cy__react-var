@@ -1,8 +1,15 @@
 import React from 'react';
+import MainBanner from "../components/MainBanner";
+
 
 const Home = () => {
     return (
             <>
+
+            <MainBanner />  
+
+            <div className="b-solution-fancy b-solution-fancy_det">
+
                 <div className="container">
                     <div className="b-editor" >
                         <div className="b-gray">
@@ -416,6 +423,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </>
     );
 };
