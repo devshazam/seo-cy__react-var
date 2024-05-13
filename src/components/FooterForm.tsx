@@ -27,7 +27,7 @@ const FooterForm = () => {
                                             className="form__mark">*</ins></label>
                                     <div className="form__inputwrap"> 
                                         
-                                        <input type="text" name="fio"  value="" placeholder="ФИО" />
+                                        <input type="text" name="fio" placeholder="ФИО" />
                                     </div>
                                     <p className="form__info"></p>
                                 </div>
@@ -36,7 +36,7 @@ const FooterForm = () => {
                                     <div className="form__inputwrap"> 
                                        
                                         <input type="tel" name="phone"
-                                             value="" placeholder="Телефон" /> </div>
+                                              placeholder="Телефон" /> </div>
                                     <p className="form__info"></p>
                                 </div>
                                 <div className="form__col-1-3 form__label-none form__col-nopad"> <label className="form__label">E-mail <ins
@@ -45,7 +45,7 @@ const FooterForm = () => {
                                        
                                        
                                         <input type="email" name="email"
-                                             value="" placeholder="E-mail" />
+                                             placeholder="E-mail" />
                                     </div>
                                     <p className="form__info"></p>
                                 </div>

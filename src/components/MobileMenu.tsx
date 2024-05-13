@@ -3,16 +3,18 @@ import React from 'react';
 const MobileMenu = () => {
     return (
             <>
-                <div className="l-sidebar js-sidebar js-sidebar-hide"></div>
+
                     <div className="l-sidebar_inner js-sidebar-inner">
+                        <div style={{textAlign: 'right'}}>
+                            <img alt="close" className="js-sidebar-hide" src='/files/icons8-close-50.png'  style={{width: '18px', height: '18px'}}/>
+                        </div>
                         <div className="b-sidebar">
                             <div className="sidebar__item sidebar__contacts">
                                 <div className="b-head-contacts">
-                                    <div className="head-contacts__phone"><a href="tel:+79093802519">+7 (909) 380-25-19</a></div>
-                                    <noindex>
+                                    <div className="head-contacts__phone"><a href="tel:+79956221475">8-995-622-14-75</a></div>
+                                    
                                         <div className="head-contacts__email"><a className="disabled" rel="nofollow" href="#">9:00-21:00</a>
                                         </div>
-                                    </noindex>
                                 </div>
                             </div>
                             <div className="sidebar__item sidebar__menu">
@@ -52,7 +54,7 @@ const MobileMenu = () => {
                             <div className="sidebar__item">
                             
                                 <p className="pilot__btn hide-on-desktop hide-on-tablet"><a className="header_button js-sidebar-link"
-                                        href="">Заказать услуги</a></p>
+                                        href="#form">Заказать услуги</a></p>
                             </div>
                         </div>
                     </div>

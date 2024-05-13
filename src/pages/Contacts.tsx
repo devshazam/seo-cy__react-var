@@ -4,7 +4,7 @@ const Contacts = () => {
     return (
             <>
                 <div className="container">
-                    <div className="b-title b-title--2">
+                <div className="b-title b-title--2" style={{background: `url(/files/3/4.jpg) 50% 0 no-repeat`}}>
                         <h1>Разработка сайта-визитки «под ключ»</h1>
                     </div>
                 </div>  
@@ -23,13 +23,13 @@ const Contacts = () => {
                                             <span itemProp="postalCode">400026</span>
                                             <br/> 
                                             Режим работы: Пн - Пт с 09:00 до 19:00<br/>
-                                            Вайбер: +7 (909) 380-25-19<br/>
-                                            Telegramm: +7 (909) 380-25-19<br/>
+                                            Вотсап: +7 (995) 622-14-75<br/>
+                                            Telegramm: +7 (995) 622-14-75<br/>
                                             Почта: <span itemProp="email">kopi34@yandex.ru</span>
                                             </p>
                                         </div>
                                         <div className="headblock2__tarif">
-                                            <a href="tel:+79093802519"><span className="headblock2__price">тел.: <span itemProp="telephone">+7 (909) 380-25-19</span></span></a>
+                                            <a href="tel:+79956221475"><span className="headblock2__price">тел.: <span itemProp="telephone">8-995-622-14-75</span></span></a>
                                         </div>
                                     </div>
                                 </div>

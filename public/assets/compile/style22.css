@@ -493,7 +493,7 @@ select {
 .b-title--2 {
   height: 380px;
   overflow: hidden;
-  background: #ffd156 url(/files/1/title-bg.jpg) 50% 0 no-repeat;
+  /* background: #ffd156 url(/files/1/title-bg.jpg) 50% 0 no-repeat; */
   text-align: center;
 }
 .b-title--2 h1 {

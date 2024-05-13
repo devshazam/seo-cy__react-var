@@ -11,20 +11,19 @@ const HeaderMenu = () => {
                                         src="/files/1/logo.png" /></a> </div>
                             <div className="pilot__1 hide-on-tablet hide-on-mobile">
                                 <p className="pilot__btn hide-on-mobile"><a className="header_button callback"
-                                        href="/#form">Заказать услуги</a></p>
+                                        href="#form">Заказать услуги</a></p>
                             </div>
                             <div className="pilot__2 hide-on-tablet hide-on-mobile">
-                                <p className="pilot__icons hide-on-tablet hide-on-mobile"><a id="ref"
-                                        href="#"  className="disabled" rel="nofollow"><img src="/files/110/icon-phone2.png" /> Служба
-                                        поддержки</a></p>
+                                <p className="pilot__icons hide-on-tablet hide-on-mobile"><a
+                                          href="tel:+79956221475"><img src="/files/110/icon-phone2.png" />Служба поддержки</a></p>
                             </div>
                             <div className="pilot__3 hide-on-tablet hide-on-mobile">
                                 <div className="b-head-contacts">
-                                    <div className="head-contacts__phone" ><a   style={{fontSize: '23px'}} href="tel:+79093802519">8 (909) 380-25-19</a></div>
-                                    <noindex>
+                                    <div className="head-contacts__phone" ><a   style={{fontSize: '23px'}} href="tel:+79956221475">8-995-622-14-75</a></div>
+                                    
                                         <div className="head-contacts__email"><a className="disabled"
                                                 href="javascript:void(0)">г. Волгоград | 9:00-21:00</a></div>
-                                    </noindex>
+                                    
                                 </div>
                             </div>
                             <div className="pilot__4 hide-on-tablet hide-on-mobile">
@@ -129,9 +128,6 @@ const HeaderMenu = () => {
                                                                 <div className="sub-menu__item"><a
                                                                         href="/digital-reklama/yandex-direct/">Яндекс Директ
                                                                     </a></div>
-                                                                <div className="sub-menu__item"><a
-                                                                        href="/digital-reklama/yandex-market/">Яндекс
-                                                                        Маркет </a></div>
                                                                 
                                                             </div>
                                                         
@@ -157,15 +153,12 @@ const HeaderMenu = () => {
                                                             <div className="sub-menu__col">
 
 
-                                                                <div className="sub-menu__title"><a href="/podderzka/">Техподдержка</a>
+                                                                <div className="sub-menu__title">
+                                                                    <a href="/podderzka/">Техподдержка</a>
                                                                 </div>
-                                                                <div className="sub-menu__item"><a
-                                                                        href="/podderzka/dorabotka/">Доработка сайтов</a></div>
-                                                                <div className="sub-menu__item"><a
-                                                                        href="/podderzka/kontent/">Наполнение
-                                                                        сайтов</a></div>
-                                                                <div className="sub-menu__item"><a
-                                                                        href="/podderzka/kupit-vpn/">Личный VPN</a></div>
+                                                                <div className="sub-menu__item">
+                                                                    <a href="/podderzka/dorabotka/">Доработка сайтов</a>
+                                                                </div>
                                                             </div>
                                                         
                                                         </div>
@@ -196,8 +189,6 @@ const HeaderMenu = () => {
                                                                         href="https://kopi34.ru/vizitki"  target="_blank">Визитки</a></div>
                                                                 <div className="sub-menu__item"><a
                                                                         href="https://kopi34.ru/banner"  target="_blank">Баннеры</a></div>
-                                                                <div className="sub-menu__item"><a
-                                                                        href="https://kopi34.ru/samokleyka" target="_blank">Самоклейки</a></div>
                                                             </div>
                                                         
                                                         </div>
@@ -220,11 +211,11 @@ const HeaderMenu = () => {
                                 <div className="b-sevice">
                                     <ul className="level-1" >
                                         
-                                        <li className="item-1"><span><a href="https://docs.google.com/spreadsheets/d/1HG0mkkAURdu3BvK3V95WTPXmKe-jf1CzCEk2IGr1Moo/edit?usp=sharing" download target="_blank">
+                                        <li className="item-1"><span><a href="/files/Прайслист-разработка_сайтов-12.04.2024.xlsx" download target="_blank">
 
                                                     Прайс 2023</a></span> </li>
                                                     
-                                        <li className="item-1"><span><a href="/Портфолио_SEO-CY - 2022 год.xlsx" download>
+                                        <li className="item-1"><span><a href="https://github.com/devshazam" target="_blank" rel='noreferrer'>
                                                     Портфолио ⬇️</a></span> </li>
                                         <li className="item-1"><span><a href="/#otzyvy">
                                                     Отзывы</a></span> </li>

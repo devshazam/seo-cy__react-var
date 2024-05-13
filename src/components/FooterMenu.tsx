@@ -14,14 +14,13 @@ const FooterMenu = () => {
                                         
                                         </div>
                                         <div className="b-counter">
-                                                <noindex></noindex>
                                         </div>
                                 </div>
                                 <div className="grid__item3">
                                         <div className="b-foot-contacts">
                                                 <div className="foot-contacts__text">Контакты</div>
                                                 <p>Волгоград</p>
-                                                <div className="foot-contacts__phone"><a href="tel:+79093802519">+7 (909) 380-25-19</a></div>
+                                                <div className="foot-contacts__phone"><a href="tel:+79956221475">8-995-622-14-75</a></div>
                                         
                                                 <div className="foot-contacts__email"></div>
                                         </div>
@@ -66,7 +65,6 @@ const FooterMenu = () => {
                                                 <div className="footer-menu__col footer-menu__col--right">
                                                         <div className="footer-menu__title"><a href="/digital-reklama/">Digital Реклама</a></div>
                                                         <div className="footer-menu__item"><a href="/digital-reklama/yandex-direct/">Реклама в Яндекс Директ</a></div>
-                                                        <div className="footer-menu__item"><a href="/digital-reklama/yandex-market/">Реклама в Яндекс Маркет</a></div>
                                                 
                                                 </div>
                                         </div>

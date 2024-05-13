@@ -1,12 +1,38 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import { useParams } from "react-router-dom";
+import LinkParam from '../links';
+import Helmet from "react-helmet"
 
 const Page = () => {
+    const { cat } = useParams<{cat?: string}>();
+    const [ds, setDs] = React.useState({
+        h1: 'Поддержка вашего сайта',
+        img: '4',
+        textUp: 'Поддержка сайта является важной составляющей успешного онлайн-присутствия. Она включает в себя ряд действий и услуг, направленных на обеспечение безопасности, функциональности и актуальности веб-сайта. Поддержка сайта помогает обеспечить его плавную работу, улучшить пользовательский опыт и обеспечить надежность работы веб-ресурса.',
+        price: '2000',
+        h2: 'Берем на поддержку сайты любой сложности!',
+        textMain: 'Одним из ключевых аспектов поддержки сайта является техническая поддержка. Она включает в себя обеспечение непрерывной работы сайта, мониторинг его доступности, обновление программного обеспечения и платформы, устранение технических проблем и ошибок. Техническая поддержка также включает резервное копирование данных, защиту от взломов и вирусов, а также обновление системы безопасности.<br>Контентовая поддержка также важна для поддержки сайта. Это включает в себя обновление и добавление нового контента на сайт, такого как статьи, новости, блоги, продуктовые описания и другие материалы. Регулярное обновление контента помогает привлечь посетителей, улучшить SEO-позиции и обеспечить актуальность информации на сайте',
+        title: 'Поддерка сайтов в Волгограде по Выгодным ценам! компания SEO-FiRST', 
+        description: 'Закажите поддержку вашего сайта у нас! Большое портфолио. Выполняем сложные и уникальные работы.'
+    });
+    useEffect(() => {
+        if(!cat)return;
+        setDs(LinkParam[cat]);
+        
+    }, [cat])
+
     return (
 
         <>
+         <Helmet
+            title={ds.title}
+            meta={[
+            {"name": "description", "content": ds.description}
+            ]}
+            />
                 <div className="container">
-                    <div className="b-title b-title--2">
-                        <h1>Разработка сайта-визитки «под ключ»</h1>
+                    <div className="b-title b-title--2" style={{background: `url(/files/3/${ds.img}.jpg) 50% 0 no-repeat`}}>
+                        <h1>{ds.h1}</h1>
                     </div>
                 </div>  
 
@@ -18,11 +44,11 @@ const Page = () => {
                             <div className="b-headblock2 b-headblock2--mag">
                                 <div className="headblock2__inner">
                                     <div className="headblock2__content">
-                                        <p itemProp="description">Описание продукта
+                                        <p itemProp="description">{ds.textUp}
                                         </p>
                                     </div>
                                     <div className="headblock2__tarif">
-                                        <p><span className="headblock2__price">от Цена продукта ₽ <span className="headblock2__time">/
+                                        <p><span className="headblock2__price">от {ds.price}<span className="headblock2__time">/
                                                     14 дней</span></span></p>
                                         <div className="headblock2__btnbox"><a className="headblock2__btn" href="#form">Заказать</a></div>
                                      
@@ -69,9 +95,8 @@ const Page = () => {
                             <div className="grid__row">
                                 <div className="push-4-12 col-8-12">
                                     <div className="benefitsblock__inner">
-                                        <h2>H2 продукта</h2>
-                                        <div className="benefitsblock__list">
-                                            Основной текст продукта
+                                        <h2>{ds.h2}</h2>
+                                        <div className="benefitsblock__list"  dangerouslySetInnerHTML={{__html: ds.textMain}}>
                                             
                                         </div>
                                     </div>
