@@ -7,24 +7,24 @@
 
     'razrabotka-saitov':
 
-    'razrabotka-saitov/landing-page':
+    'landing-page':
 
-    'razrabotka-saitov/site-vizitka':
+    'site-vizitka':
 
-    'razrabotka-saitov/site-katalog': 
+    'site-katalog': 
 
-    'razrabotka-saitov/site-magazin':
+    'site-magazin':
 
     'poiskovoe-prodvizenie': 
 
-    'poiskovoe-prodvizenie/seo-prodvizenie-yandex':
+    'seo-prodvizenie-yandex':
 
-    'poiskovoe-prodvizenie/seo-prodvizenie-google':
+    'seo-prodvizenie-google':
 
     'digital-reklama':
 
-    'digital-reklama/yandex-direct':
+    'yandex-direct':
 
     'podderzka':
 
-    'podderzka/dorabotka':
+    'pdorabotka':
